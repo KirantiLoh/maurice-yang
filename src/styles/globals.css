@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
+    html {
+        @apply w-full min-h-screen bg-background text-white font-poppins snap-y snap-mandatory scroll-smooth;
+    }
     * {
         scroll-behavior: smooth;
     }
@@ -15,6 +18,7 @@
         animation: change-text 6s infinite;
     }
     .glitching-text {
+        display: block;
         animation: glitch 3s linear infinite;
     }
     @keyframes glitch {

@@ -38,7 +38,7 @@ const Footer = () => {
     }
 
   return (
-    <footer id="contact" className='relative z-[1] px-5 sm:px-16 md:px-28 pt-28 pb-16 text-white w-full min-h-screen flex flex-col md:flex-row gap-10'>
+    <footer id="contact" className='snap-center relative z-[1] px-5 sm:px-16 md:px-28 pt-28 pb-16 text-white w-full min-h-screen flex flex-col md:flex-row gap-10'>
         <form className='flex-[2] flex flex-col gap-5' onSubmit={handleSubmit}>
             <h1 className='text-3xl font-semibold'>Have a project in mind?</h1>
             <h2>Let&apos;s talk</h2>

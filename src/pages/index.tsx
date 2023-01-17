@@ -10,14 +10,14 @@ const Home: NextPage = () => {
 
 
   return (
-      <main className="w-full min-h-screen bg-background text-white font-poppins">
+      <>
         <Navbar />
         <HeroSection />
         <ExperienceSection />
         <SkillSection />
         <ProjectSection />
         <Footer />
-      </main>
+      </>
   );
 };
 

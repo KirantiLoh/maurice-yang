@@ -12,6 +12,12 @@ module.exports = {
             },
             fontFamily: {
                 poppins: ["Poppins"]
+            },
+            textColor: {
+                white: "#dbdbdb"
+            },
+            borderColor: {
+                white: "#dbdbdb"
             }
         },
     },

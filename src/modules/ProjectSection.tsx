@@ -36,7 +36,7 @@ const ProjectSection = () => {
     })
 
   return (
-    <section ref={ref} id="projects" className={`${show ? "bg-background" : "bg-black"} invert px-5 sm:px-16 md:px-28 w-full min-h-screen pt-20 relative z-[1]`}>
+    <section ref={ref} id="projects" className={`${show ? "bg-background" : "bg-black"} snap-start invert px-5 sm:px-16 md:px-28 w-full min-h-screen pt-20 relative z-[1]`}>
         <div ref={observe} className={`${show ? "opacity-0" : "opacity-100"} pointer-events-none text-black absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center z-[1] transition-all duration-1000 delay-300`}>
             <h2 style={{writingMode: "vertical-lr"}} className='text-5xl text-white'>『闇纏・次元斬り』彼岸</h2>
         </div>
@@ -51,7 +51,7 @@ const ProjectSection = () => {
                             <Image src={project.image} alt={project.name} fill className='object-cover' />
                         </div>
                         <h3 className='text-2xl font-semibold'>{project.name}</h3>
-                        <p className="max-w-prose text-opacity-80">{project.description}</p>
+                        <p className="max-w-prose opacity-70">{project.description}</p>
                         <div className="flex items-center gap-4">
                             {project.url && 
                             <a href={project.url} className="transition-colors duration-300 hover:text-primary cursor-pointer text-2xl" target="_blank" rel="noreferrer">
