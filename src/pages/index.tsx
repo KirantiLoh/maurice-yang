@@ -10,14 +10,18 @@ const Home: NextPage = () => {
 
 
   return (
-      <>
-        <Navbar />
+    <>
+      <Navbar />
+      <section className="snap-y snap-mandatory">
         <HeroSection />
         <ExperienceSection />
-        <SkillSection />
+      </section>
+      <SkillSection />
+      <section className="snap-y snap-mandatory">
         <ProjectSection />
-        <Footer />
-      </>
+      </section>
+      <Footer />
+    </>
   );
 };
 

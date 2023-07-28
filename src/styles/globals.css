@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
     html {
-        @apply w-full min-h-screen bg-background text-white font-poppins snap-y snap-mandatory scroll-smooth;
+        @apply w-full min-h-screen bg-background text-white font-poppins scroll-smooth;
     }
     * {
         scroll-behavior: smooth;
