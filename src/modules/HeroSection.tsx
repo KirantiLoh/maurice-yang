@@ -36,7 +36,7 @@ const HeroSection = () => {
           <a href="#experience" className='w-max px-6 py-3 text-lg rounded-lg bg-primary-500 transition-all hover:bg-primary'>
             Learn More
           </a>
-          <a target="_blank" rel="noreferrer" className='px-6 py-3 text-lg rounded-lg w-max' href="https://drive.google.com/file/d/1JwmRaujO2cnq59YdhxL-nF8AhEXETkwA/view?usp=sharing">View Resume</a>
+          <a target="_blank" rel="noreferrer" className='px-6 py-3 text-lg rounded-lg w-max' href="https://drive.google.com/file/d/1z3eRAGfg9gndDIKkQsIv9RUCbfXQ_5jY/view?usp=sharing">View Resume</a>
         </div>
       </aside>
     </section>
