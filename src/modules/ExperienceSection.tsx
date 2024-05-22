@@ -35,7 +35,7 @@ const ExperienceSection = () => {
       <div className={`pt-8 z-[1] relative w-full h-full transition-all duration-[1.7s] ${show ? "opacity-100" : "opacity-0"} `}>
         <h1 className="text-3xl font-semibold">Experience</h1>
         <h2>経験 • 经验</h2>
-        {experienceData.map((experience, index) => <ExperienceCard key={index} {...experience} />)}
+        {experienceData.map((experience) => <ExperienceCard key={experience.company} {...experience} />)}
       </div>
     </section>
   )

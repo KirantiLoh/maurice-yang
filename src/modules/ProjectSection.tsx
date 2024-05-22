@@ -18,13 +18,6 @@ const ProjectSection = () => {
         },
         onLeave: () => {
             if (window.innerWidth < 768) {
-                if (window.scrollY > 5 * window.innerHeight) {
-                    setShow(true);
-                }
-                else {
-                    setShow(false);
-                }
-            } else {
                 if (window.scrollY > 4 * window.innerHeight) {
                     setShow(true);
                 }
@@ -45,8 +38,8 @@ const ProjectSection = () => {
                 <h1 className='text-3xl font-semibold'>Projects</h1>
                 <h2>プロジェクト • 项目</h2>
                 <ul className='flex flex-wrap gap-10 xl:gap-20 pt-5'>
-                    {projects.map((project, index) => (
-                        <li key={index} className="flex flex-col gap-3 flex-1">
+                    {projects.map((project) => (
+                        <li key={project.name} className="flex flex-col gap-3 flex-1">
                             <div className='relative w-full min-w-[275px] lg:w-[400px] xl:w-[500px] aspect-[32/15]'>
                                 <Image src={project.image} alt={project.name} fill className='object-cover' />
                             </div>

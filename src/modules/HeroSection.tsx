@@ -9,7 +9,7 @@ const HeroSection = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScale(Math.round((window.scrollY + window.innerHeight) / (containerRef.current?.scrollHeight || 2 * window.innerHeight) * 100) + 50);
+      setScale(Math.round((window.scrollY + window.innerHeight) / (containerRef.current?.scrollHeight ?? 2 * window.innerHeight) * 100) + 50);
     });
   }, [])
 
@@ -36,7 +36,7 @@ const HeroSection = () => {
           <a href="#experience" className='w-max px-6 py-3 text-lg rounded-lg bg-primary-500 transition-all hover:bg-primary'>
             Learn More
           </a>
-          <a target="_blank" rel="noreferrer" className='px-6 py-3 text-lg rounded-lg w-max' href="https://drive.google.com/file/d/1a97s7DFRr8TN9irCLhoYcGrY_FxEIlib/view?usp=share_link">View Resume</a>
+          <a target="_blank" rel="noreferrer" className='px-6 py-3 text-lg rounded-lg w-max' href="https://drive.google.com/file/d/1JwmRaujO2cnq59YdhxL-nF8AhEXETkwA/view?usp=sharing">View Resume</a>
         </div>
       </aside>
     </section>
