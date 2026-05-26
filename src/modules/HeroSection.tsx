@@ -30,13 +30,13 @@ const HeroSection = () => {
           Websites
         </div>
         <p className='text-lg max-w-[20ch] sm:max-w-none opacity-70'>
-          Full stack web developer based in Indonesia
+          Software Engineer & AI Researcher based in Indonesia
         </p>
         <div className="flex flex-wrap items-center">
           <a href="#experience" className='w-max px-6 py-3 text-lg rounded-lg bg-primary-500 transition-all hover:bg-primary'>
             Learn More
           </a>
-          <a target="_blank" rel="noreferrer" className='px-6 py-3 text-lg rounded-lg w-max' href="https://drive.google.com/file/d/153cB3It4M49n9DAl5N_hbeDQ7KLug2od/view?usp=sharing">View Resume</a>
+          <a target="_blank" rel="noreferrer" className='px-6 py-3 text-lg rounded-lg w-max' href="https://drive.google.com/file/d/1hEESY9bOJsOFO6ey2D81N0SHTvj7qxhC/view?usp=sharing">View Resume</a>
         </div>
       </aside>
     </section>
